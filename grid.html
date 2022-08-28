@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box-0 {
+            display: inline-grid;
+            padding: 50px;
+            grid-template-columns: 50% 40%;
+            align-items: center;
+        }
+
+        .description {
+            border: 1px solid #ffffff;
+            position: relative;
+        }
+
+        img {
+            width: 110%;
+            position: relative;
+            grid-template-columns: 1/2;
+        }
+
+        video {
+            position: absolute;
+            top: 0;
+            left: 60%;
+            grid-template-columns: 1/2;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-0">
+        <div class="description">
+            <h1>Watch everywhere.</h1>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+        <img src="./assets/device-apple.png" alt="">
+        <video autoplay="" loop="true" muted="true" playsinline>
+            <source src="./assets/2.m4v">
+        </video>
+    </div>
+</body>
+
+</html>
