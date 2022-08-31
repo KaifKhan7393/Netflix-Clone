@@ -88,12 +88,12 @@ h2 {
 .navbar img {
   width: 150px;
 }
-
+/* 
 .right {
-  /* width: 25%;
+  width: 25%;
   display: flex;
-  justify-content: space-between; */
-}
+  justify-content: space-between;
+} */
 
 select {
   padding: 10px;
@@ -406,10 +406,10 @@ a {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
 }
-.footer-box {
-  /* border: 1px solid white; */
-  /* padding: 0 4rem; */
-}
+/* .footer-box {
+  border: 1px solid white; 
+  padding: 0 4rem;
+} */
 .footer-btn {
   margin-top: 1rem;
   color: #737373;

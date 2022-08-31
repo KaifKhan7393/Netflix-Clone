@@ -52,7 +52,7 @@ createElement(quesAns);
 const btn = document.querySelectorAll('.minMax');
 const answer = document.querySelectorAll('.ans');
 const len = quesAns.length;
-for (let i = 0; i < len; i++) {
+for (let i = 0; i <= len; i++) {
     btn[i].addEventListener('click', function () {
         answer[i].classList.toggle('show-ans');
         if (btn[i].innerText == '+') {
