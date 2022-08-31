@@ -1,37 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 :root {
-    --btn-color: #e50914;
-    --btn-active-color: #f40915;
-    --large-heading: "Raleway", sans-serif;
-    --white: #ffffff;
+  --btn-color: #e50914;
+  --btn-active-color: #f40915;
+  --large-heading: "Raleway", sans-serif;
+  --white: #ffffff;
 }
 
 .btn {
-    color: var(--white);
-    outline: var(--white);
-    cursor: pointer;
-    background: var(--btn-color);
-    outline: none;
-    border: 0;
-    border-radius: 0.5rem;
+  color: var(--white);
+  outline: var(--white);
+  cursor: pointer;
+  background: var(--btn-color);
+  outline: none;
+  border: 0;
+  border-radius: 0.5rem;
 }
 
 hr {
-    width: 100%;
-    height: 1.5vh;
-    background: #222;
-    outline: none;
-    border: 0;
+  width: 100%;
+  height: 1.5vh;
+  background: #222;
+  outline: none;
+  border: 0;
 }
 
 h1,
@@ -40,481 +40,608 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: bold;
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 2px;
-    color: var(--white);
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  color: var(--white);
 }
 
 h1 {
-    font-size: 3.125rem;
+  font-size: 3.125rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
-
 
 /* Styling Hero Section */
 
 .hero {
-    width: 100%;
-    height: 110vh;
-    overflow-x: hidden;
-    padding: 1rem 2rem;
-    background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.8), transparent 60%, rgba(0, 0, 0, 0.8)), url("../assets/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    position: relative;
+  width: 100%;
+  height: 110vh;
+  overflow-x: hidden;
+  padding: 1rem 2rem;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8),
+      transparent 60%,
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  position: relative;
 }
-
 
 /* Styling Navigation  Menu*/
 
 .navbar {
-    width: 100%;
-    height: 10vh;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar img {
-    width: 150px;
+  width: 150px;
 }
 
 .right {
-    /* width: 25%;
+  /* width: 25%;
   display: flex;
   justify-content: space-between; */
 }
 
 select {
-    padding: 10px;
-    background: transparent;
-    color: var(--white);
-    cursor: pointer;
-    outline: none;
-    border: 1px solid grey;
-    font-size: 1.1rem;
-    margin-right: 2rem;
-    border-radius: 1px;
+  padding: 10px;
+  background: transparent;
+  color: var(--white);
+  cursor: pointer;
+  outline: none;
+  border: 1px solid grey;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  border-radius: 1px;
 }
 
 .navbar .btn {
-    color: var(--white);
-    padding: 7px 17px;
-    font-size: 1.4rem;
-    letter-spacing: 1px;
-    outline: var(--white);
-    cursor: pointer;
-    background: var(--btn-color);
-    outline: none;
-    border: 0;
-    border-radius: 0.3rem;
+  color: var(--white);
+  padding: 7px 17px;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  outline: var(--white);
+  cursor: pointer;
+  background: var(--btn-color);
+  outline: none;
+  border: 0;
+  border-radius: 0.3rem;
 }
 
 option {
-    background-color: grey;
-    font-size: 1rem;
+  background-color: grey;
+  font-size: 1rem;
 }
-
 
 /* Styling home page */
 
 .hero-cont {
-    width: 80%;
-    color: var(--white);
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -70%);
-    text-align: center;
+  width: 80%;
+  color: var(--white);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  text-align: center;
 }
 
 .hero-cont h1 {
-    font-size: 3.125rem;
-    /* font-size: 60px; */
-    font-weight: bold;
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 2px;
-    margin: 0 auto;
-    max-width: 640px;
+  font-size: 3.125rem;
+  /* font-size: 60px; */
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  max-width: 640px;
 }
 
 .hero-cont h2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 2px;
-    margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  margin-top: 1rem;
 }
 
 .top-email-cont {
-    font-size: 1.3rem;
-    font-weight: bold;
-    font-family: "Raleway", sans-serif;
-    margin-top: 2rem;
-    color: var(--white);
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  margin-top: 2rem;
+  color: var(--white);
 }
 
 .emailInp {
-    margin-top: 2rem;
-    max-width: 500px;
-    padding: 0.7rem 10px;
-    outline: none;
-    font-size: 2rem;
+  margin-top: 2rem;
+  max-width: 500px;
+  padding: 0.7rem 10px;
+  outline: none;
+  font-size: 2rem;
 }
 
 .emailBtn {
-    font-size: 2rem;
-    border-radius: 0;
-    padding: 0.8rem 2rem;
-    margin-left: -4px;
+  font-size: 2rem;
+  border-radius: 0;
+  padding: 0.8rem 2rem;
+  margin-left: -4px;
 }
 
 .hero-cont .btn:hover {
-    background-color: var(--btn-active-color);
+  background-color: var(--btn-active-color);
 }
-
 
 /* Styling content section */
 
 .content-box {
-    width: 100%;
-    background-color: #000000;
-    color: var(--white);
-    position: relative;
+  width: 100%;
+  background-color: #000000;
+  color: var(--white);
+  position: relative;
 }
-
 
 /* styling box 1 */
 
 .content-box .cont-box-1 {
-    display: flex;
-    align-items: center;
-    padding: 5%;
+  display: flex;
+  align-items: center;
+  padding: 5%;
 }
 
 .cont-box-1 .cont-left {
-    flex-basis: 50%;
+  flex-basis: 50%;
 }
 
 .cont-left h1 {
-    font-size: 4rem;
-    font-family: var(--large-heading);
-    letter-spacing: 2px;
+  font-size: 4rem;
+  font-family: var(--large-heading);
+  letter-spacing: 2px;
 }
 
 .cont-left p {
-    font-size: 2rem;
-    font-family: var(--large-heading);
-    margin-top: 1rem;
-    line-height: 2.5rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-family: var(--large-heading);
+  margin-top: 1rem;
+  line-height: 2.5rem;
+  font-weight: bold;
 }
 
 .cont-box-1 .cont-right {
-    flex-basis: 50%;
-    position: relative;
-    z-index: 1;
+  flex-basis: 50%;
+  position: relative;
+  z-index: 1;
 }
 
 .cont-right img {
-    width: 100%;
-    max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 .cont-right video {
-    width: 80%;
-    max-width: 80%;
-    position: absolute;
-    top: 20%;
-    left: 13%;
-    z-index: -1;
+  width: 80%;
+  max-width: 80%;
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  z-index: -1;
 }
-
 
 /* styling box 2 */
 
 .cont-box-2 {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .cont-box-2 .cont-right {
-    text-align: left;
+  text-align: left;
 }
 
 .cont-box-2 .cont-right img {
-    width: 90%;
-    position: relative;
-    left: -15%;
+  width: 90%;
+  position: relative;
+  left: -15%;
 }
 
 .cont-box-2 .cont-right .image-dialouge-box {
-    /* width: 330px; */
-    width: 60%;
-    height: 25%;
-    border: 2px solid grey;
-    border-radius: 10px;
-    padding: 6px 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    top: 67%;
-    background: #000000;
+  /* width: 330px; */
+  width: 60%;
+  height: 25%;
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 6px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 67%;
+  background: #000000;
 }
 
 .cont-box-2 .cont-right .image-dialouge-box img {
-    width: 20%;
-    position: relative;
-    left: 5%;
+  width: 20%;
+  position: relative;
+  left: 5%;
 }
 
 .image-dialouge-box p {
-    color: #0071eb;
+  color: #0071eb;
 }
 
 .cont-box-2 .cont-left h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .cont-box-2 .cont-left p {
-    font-size: 1.5rem;
-    font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
-
 
 /* Styling Third Box */
 
 .cont-right img {
-    width: 100%;
-    max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 .cont-box-3 .cont-right video {
-    width: 60%;
-    max-width: 80%;
-    position: absolute;
-    top: 10%;
-    left: 20%;
-    z-index: -1;
+  width: 60%;
+  max-width: 80%;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  z-index: -1;
 }
-
 
 /* Styling Fourth Box */
 
 .cont-box-4 .cont-right img {
-    position: relative;
-    left: 0%;
+  position: relative;
+  left: 0%;
 }
-
 
 /* Styling Question Section */
 
 .question-box {
-    width: 100%;
-    padding-top: 8%;
+  width: 100%;
+  padding-top: 8%;
 }
 
 .question-box h1 {
-    text-align: center;
-    padding: 10px 0;
+  text-align: center;
+  padding: 10px 0;
 }
 
 .ques-ans-box {
-    width: 80%;
-    margin: 1rem auto;
-    background: #303030;
-    padding: 10px;
+  width: 80%;
+  margin: 1rem auto;
+  background: #303030;
+  padding: 10px;
 }
 
 .questions {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
 }
 
 .ans {
-    padding: 10px;
-    border-top: 2px solid black;
-    display: none;
+  padding: 10px;
+  border-top: 2px solid black;
+  display: none;
 }
 
 .ans h3 {
-    font-size: 1.4rem;
-    font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 .questions .minMax {
-    background: transparent;
-    font-size: 1.5rem;
-    outline: none;
-    padding: 2px;
-    border: 0px;
-    cursor: pointer;
-    color: var(--white);
+  background: transparent;
+  font-size: 1.5rem;
+  outline: none;
+  padding: 2px;
+  border: 0px;
+  cursor: pointer;
+  color: var(--white);
 }
 
 .show-ans {
-    display: block;
+  display: block;
 }
-
 
 /* Styling Lower Emial Content */
 
 .belowEmail-cont {
-    margin: 3rem 0;
-    width: 100%;
-    text-align: center;
+  margin: 3rem 0;
+  width: 100%;
+  text-align: center;
 }
 
 .below-email-cont {
-    font-size: 1.2rem;
-    padding-top: 2rem;
-    font-weight: 500;
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  font-weight: 500;
 }
 
+/* Stling Footer */
+
+footer {
+  width: 100%;
+  /* padding: 5% 30% 5% 15%; */
+  padding: 5rem 10rem;
+  font-family: var(--large-heading);
+  color: #737373;
+}
+.footer-ques {
+  margin: 1rem 0;
+  color: #737373;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  list-style-type: none;
+  padding: 0.6rem 0;
+}
+a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #737373;
+}
+
+.footer-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.footer-box {
+  /* border: 1px solid white; */
+  /* padding: 0 4rem; */
+}
+.footer-btn {
+  margin-top: 1rem;
+  color: #737373;
+}
+.end-text {
+  color: #737373;
+  margin-top: 1rem;
+}
 
 /* Making responsive for mobile devices */
 
+@media only screen and (max-width: 1050px) {
+  .hero {
+    height: 85vh;
+  }
+  .hero-cont {
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    /* padding: 5rem; */
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
 @media only screen and (min-width: 320px) and (max-width: 900px) {
-    .hero {
-        padding: 0.5rem 1rem;
-    }
-    /* Styling Navigation  Menu*/
-    .navbar {
-        padding: 1rem;
-    }
-    .navbar img {
-        width: 100px;
-    }
-    .right {
-        display: flex;
-    }
-    select {
-        font-size: 0.8rem;
-        margin-right: 1rem;
-        padding: 5px 9px;
-    }
-    .navbar .btn {
-        color: white;
-        padding: 5px 9px;
-        font-size: 0.8rem;
-    }
-    /* Styling home page */
-    .hero-cont {
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -60%);
-        text-align: center;
-    }
-    .hero-cont h1 {
-        font-size: 1.7rem;
-    }
-    .hero-cont h2 {
-        font-size: 1.2rem;
-        font-weight: 500;
-    }
-    .hero-cont p {
-        font-size: 1rem;
-        font-weight: 500;
-    }
-    #email-input {
-        width: 90%;
-        min-width: 320px;
-        margin: 1rem auto;
-        margin-top: 2rem;
-        font-size: 1.3rem;
-    }
-    .emailBtn {
-        font-size: 1.2rem;
-    }
-    /* Styling content section */
-    /* Fixing box 1 */
-    .content-box .cont-box-1 {
-        flex-direction: column;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        justify-content: center;
-    }
-    .cont-box-1 .cont-left {
-        flex-basis: 100%;
-        text-align: center;
-    }
-    .cont-left h1 {
-        font-size: 2rem;
-    }
-    .cont-left p {
-        font-size: 1.5rem;
-        line-height: 1.8rem;
-        font-weight: 500;
-    }
-    .cont-box-1 .cont-right {
-        flex-basis: 100%;
-    }
-    /* Fixing box 2 */
-    .cont-box-2 .cont-right img {
-        position: relative;
-        left: 0;
-    }
-    .image-dialouge-box p {
-        color: #0071eb;
-    }
-    .cont-box-2 .cont-left h1 {
-        font-size: 2rem;
-    }
-    .cont-box-2 .cont-left p {
-        font-size: 1.5rem;
-        line-height: 1.8rem;
-        font-weight: 500;
-    }
-    .cont-box-2 .cont-right .image-dialouge-box {
-        /* width: 250px; */
-        width: 80%;
-        height: 30%;
-        top: 67%;
-        left: 10%;
-    }
-    .cont-box-2 .cont-right .image-dialouge-box img {
-        width: 15%;
-    }
-    /* Fixing the FAQ heading on smaller screens */
-    .question-box h1 {
-        font-size: 1.3rem;
-    }
-    .ans h3 {
-        font-size: 1rem;
-        font-weight: 400;
-    }
+  .hero {
+    padding: 0.5rem 1rem;
+  }
+  /* Styling Navigation  Menu*/
+  .navbar {
+    padding: 1rem;
+  }
+  .navbar img {
+    width: 100px;
+  }
+  .right {
+    display: flex;
+  }
+  select {
+    font-size: 0.8rem;
+    margin-right: 1rem;
+    padding: 5px 9px;
+  }
+  .navbar .btn {
+    color: white;
+    padding: 5px 9px;
+    font-size: 0.8rem;
+  }
+  /* Styling home page */
+  .hero-cont {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .hero-cont h1 {
+    font-size: 1.7rem;
+  }
+  .hero-cont h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .hero-cont p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  #email-input {
+    width: 90%;
+    min-width: 320px;
+    margin: 1rem auto;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+  }
+  .emailBtn {
+    font-size: 1.2rem;
+  }
+  /* Styling content section */
+  /* Fixing box 1 */
+  .content-box .cont-box-1 {
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    justify-content: center;
+  }
+  .cont-box-1 .cont-left {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .cont-left h1 {
+    font-size: 2rem;
+  }
+  .cont-left p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+  }
+  .cont-box-1 .cont-right {
+    flex-basis: 100%;
+  }
+  /* Fixing box 2 */
+  .cont-box-2 .cont-right img {
+    position: relative;
+    left: 0;
+  }
+  .image-dialouge-box p {
+    color: #0071eb;
+  }
+  .cont-box-2 .cont-left h1 {
+    font-size: 2rem;
+  }
+  .cont-box-2 .cont-left p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+  }
+  .cont-box-2 .cont-right .image-dialouge-box {
+    /* width: 250px; */
+    width: 80%;
+    height: 30%;
+    top: 67%;
+    left: 10%;
+  }
+  .cont-box-2 .cont-right .image-dialouge-box img {
+    width: 15%;
+  }
+  /* Fixing the FAQ heading on smaller screens */
+  .question-box h1 {
+    font-size: 1.3rem;
+  }
+  .ans h3 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  /* Footer */
+  footer {
+    padding: 5rem 5rem;
+  }
 }
 
-@media only screen and (min-width:550px) and (max-width:900px) {
-    .cont-box-2 .cont-right .image-dialouge-box {
-        /* width: 250px; */
-        width: 70%;
-        height: 25%;
-        top: 67%;
-        left: 10%;
-    }
-    .cont-box-2 .cont-right .image-dialouge-box img {
-        width: 15%;
-    }
+@media only screen and (min-width: 550px) and (max-width: 900px) {
+  .cont-box-2 .cont-right .image-dialouge-box {
+    /* width: 250px; */
+    width: 70%;
+    height: 25%;
+    top: 67%;
+    left: 10%;
+  }
+  .cont-box-2 .cont-right .image-dialouge-box img {
+    width: 15%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .cont-box-2 .cont-right img {
-        left: 50%;
-        transform: translate(-50%, 0)
-    }
-    .ques-ans-box {
-        width: 100%;
-        margin: .5rem auto;
-        background: #303030;
-        padding: 10px;
-    }
+  /* Fixing Siz eof Home Page */
+  .hero {
+    width: 100%;
+    height: 55vh;
+    padding: 0rem 1rem;
+  }
+  .hero-cont {
+    width: 90%;
+  }
+
+  .top-email-cont {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+
+  .emailInp {
+    margin-top: 1.5rem;
+    max-width: 500px;
+    padding: 0.5rem 10px;
+    outline: none;
+    font-size: 2rem;
+  }
+
+  .emailBtn {
+    font-size: 1rem;
+    border-radius: 0;
+    padding: 0.6rem 1rem;
+    margin-left: -4px;
+  }
+  .navbar {
+    padding: 0rem;
+  }
+  /* Styling home page */
+  .hero-cont {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    text-align: center;
+    padding: 0 20px;
+  }
+  .hero-cont h1 {
+    font-size: 1.75rem;
+    letter-spacing: 1px;
+  }
+  .hero-cont h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+  .hero-cont p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 1rem;
+    /* padding:0 20px; */
+  }
+  /* Styling second content box */
+  .cont-box-2 .cont-right img {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  /* Styling ques and ans box */
+  .ques-ans-box {
+    width: 100%;
+    margin: 0.5rem auto;
+    background: #303030;
+    padding: 10px;
+  }
+  .questions > .ques {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  /* Footer */
+  footer {
+    padding: 5rem 2rem;
+  }
+  .footer-menu {
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 2rem;
+  }
 }
